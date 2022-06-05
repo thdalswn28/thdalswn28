@@ -1,16 +1,18 @@
-### Hi there 👋
+## 리눅스 명령어와 vim 에디터에서 매크로 사용방법에 대하여
 
-<!--
-**thdalswn28/thdalswn28** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+***1) 리눅스 명령어 ps, top, jobs, kill***
 
-Here are some ideas to get you started:
+1. ps : 현재 실행중인 프로세스를 보여주는 명령어 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+|명령어|설명|
+|:----|:---------------------------|
+|R|Running 프로세스가 실행중이거나 실행 준비가 되었음을 의미|
+|S|Slepping 프로세스가 실행되고 있지 않고 대기중|
+|D|Uninterruptible Sleep 입출력 대기중|
+|T|Stopped 프로세스 중지|
+|Z|A defunct or "zombie"process 종료되었지만 상위 프로세스가 정리되지 않음|
+|N|A low priority process 낮은 우선 순위를 가진 프로세스|
+
+2. top : 시스템 프로세스/메모리 사용 현황을 실시간으로 출력
+3. jobs : 작업이 중지된 상태나 백그라운드로 진행 중인 상태를 표시
+4. kill : 프로세스에 종료 시그널을 보냄
